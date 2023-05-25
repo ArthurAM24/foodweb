@@ -471,8 +471,6 @@ header.sticky {
   border-radius: 5rem;
 }
 
-
-
 @media (max-width: 1690px) {
   section {
     padding: 70px 2%;
@@ -492,28 +490,6 @@ header.sticky {
   .contact {
     padding: 70px 2%;
     transition: 0.2s;
-  }
-}
-
-@media (max-width: 1290px) {
-  section {
-    padding: 80px 2%;
-    transition: 0.2s;
-  }
-
-  :root {
-    --big-font: 3.2rem;
-    --h2-font: 2rem;
-    --p-font: 1rem;
-    transition: 0.2s;
-  }
-
-  .home {
-    height: 80vh;
-  }
-
-  .main-text {
-    text-align: center;
   }
 }
 

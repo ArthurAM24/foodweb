@@ -7,6 +7,9 @@ import ScrollReveal from 'scrollreveal';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  
+  title = 'foodwebsite';
+
   ngOnInit() {
     const sr = ScrollReveal({
       distance: '100px',
@@ -57,5 +60,5 @@ export class AppComponent implements OnInit {
     }
   }
 
-  title = 'foodwebsite';
+
 }
