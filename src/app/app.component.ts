@@ -19,8 +19,6 @@ export class AppComponent implements OnInit {
     // Definir los elementos a animar
     sr.reveal('.home-text', { delay: 200, reset: true, origin: 'left' });
     sr.reveal('.home-img', { delay: 200, reset: true, origin: 'right' });
-    sr.reveal('.about-img', { delay: 200, reset: true, origin: 'left' });
-    sr.reveal('.about-text', { delay: 200, reset: true, origin: 'right' });
 
     const header = document.querySelector("header");
     const menu = document.querySelector('#menu-icon');
